@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cd /tmp
+rm ccache.tar.gz
+com () 
+{ 
+    tar --use-compress-program="pigz -k -$2 " -cf $1.tar.gz $1
+}
+
+time com ccache 1
+
+mkdir -p ~/.config/rclone
+echo "$CLO_1" > ~/.config/rclone/rclone.conf
+time rclone copy ccache.tar.gz $CLO -P
+
+if [ "$ROM_U" == "1" ]; then
+cd ~/work/out/target/product/$DEVICE
+FILE="@${OUTPUT}"
+SERVER=$(curl -s https://apiv2.gofile.io/getServer | jq  -r '.data|.server')
+UPLOAD=$(curl -F file=${FILE} https://${SERVER}.gofile.io/uploadFile)
+LINK=$(echo $UPLOAD | jq -r '.data|.downloadPage')
+echo $LINK
+echo " "
+fi

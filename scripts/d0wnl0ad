@@ -1,0 +1,20 @@
+#!/bin/bash
+chk() {
+df -h
+free -h
+nproc
+cat /etc/os*
+env
+}
+
+c_down() {
+cd /tmp
+time aria2c $URI -x16 -s50
+time tar xf ccache.tar.gz
+}
+
+echo "Checking free space"
+chk
+echo "Downloading ccache"
+c_down
+echo "Done"

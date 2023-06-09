@@ -1,0 +1,14 @@
+#!/bin/bash
+sync() {
+mkdir -p ~/work
+cd ~/work
+repo init --depth=1 -u $MANIFEST
+git clone $LOCAL_MANIFEST .repo/local_manifests
+repo sync -j4 --force-sync --no-tags --no-clone-bundle
+}
+
+echo "Syncing Rom and Device Sources..."
+sync
+echo "Syncing"
+echo "Syncing...."
+echo "Syncing......Done"

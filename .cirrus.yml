@@ -1,0 +1,29 @@
+env:
+    MANIFEST:  https://github.com/PixelExperience-Fleur/manifest -b thirteen
+    DEVICE: fleur
+    OEM: xiaomi
+    LOCAL_MANIFEST: https://github.com/ShazuxD/local_manifestt
+    TARGET: bacon
+    EXTRA_CMD: export SKIP_ABI_CHECKS=true && export SELINUX_IGNORE_NEVERALLOWS=true
+    EXTEA_CMD1: git clone https://github.com/ShazuxD/prebuilt_vendor_xiaomi_fleur du && cd du && bash *.sh ~/work/device/xiaomi/fleur/prebuilts
+    LUNCH_COMBO: aosp_${DEVICE}-userdebug
+    OUTPUT: P*.zip
+    CLO: shazuxd:ci
+    CLO_1: ENCRYPTED[839f8000c003e888e6115398f99fa1ddb94d429b1583a04b8ad256a8b7e96f5f6c27a3c7e48830da52063b6f12c261ac]
+    URI: https://fleur.shazuxd7.workers.dev/0:/ci/ccache.tar.gz 
+    ROM_U: 1
+task:
+  name: "build"
+  timeout_in: 120m
+  container:
+      image: apon77/aosp:cirrus
+      cpu: 8
+      memory: 32G
+  Storage-Checker_script:
+      - ./scripts/d0wnl0ad
+  Sync_script:
+      - ./scripts/syn0
+  Build_script:
+      - ./scripts/bu1ld
+  upload_script:
+      - ./scripts/upl0ad

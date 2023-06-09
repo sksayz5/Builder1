@@ -1,0 +1,81 @@
+#!/bin/bash
+
+b1() {
+cd ~/work/device/xiaomi/*/prebu*
+ls
+aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.0/vendor.img
+cd ~/work
+. build/envsetup.sh
+#cd ~/work/device/xiaomi
+#git clone https://github.com/ShazuxD/prebuilt_vendor_xiaomi_fleur du && cd du && bash *.sh fleur/prebu*
+#ls fleur/prebu*
+#git clone https://github.com/Nem1xx/vendor_xiaomi_fleur-prebuilt k &&cd k &&bash *.sh &&cp vendor.img ../fleur/prebu*
+#ls fleur/prebu*
+export CCACHE_DIR=/tmp/ccache
+export CCACHE_EXEC=$(which ccache)
+export USE_CCACHE=1
+ccache -M 100G
+ccache -o compression=true
+ccache -z
+lunch "$LUNCH_COMBO"
+mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
+#api-stubs-docs
+
+#make system-api-stubs-docs
+
+#make test-api-stubs-docs
+mka $TARGET
+mka $TARGET
+}
+
+b2() {
+sudo apt update &&sudo apt install pigz wget
+
+
+ cd ~/work/device/xiaomi/*/prebu*
+
+ls
+
+aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.0/vendor.img
+ls
+cd ~/work
+
+. build/envsetup.sh
+$EXTRA_CMD
+ls device/xiaomi/fleur/prebuilts
+export CCACHE_DIR=/tmp/ccache
+export CCACHE_EXEC=$(which ccache)
+export USE_CCACHE=1
+ccache -M 100G
+ccache -o compression=true
+ccache -z
+lunch "$LUNCH_COMBO"
+mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
+mka bacon -j8
+}
+
+
+
+echo "Building"
+echo "Building...."
+echo "Building......"
+
+b2
+mkdir ~/.config
+mkdir ~/.config/rclone
+echo "$CLO_1" > ~/.config/rclone/rclone.conf
+cd ~/work/out/taregt/product/fleur
+rclone copy Pi*.zip shazuxd:ci -P
+wget https://github.com/Sushrut1101/GoFile-Upload/raw/master/upload.sh >> /dev/null
+
+chmod +x upload.sh
+
+sudo apt install jq -y >> /dev/null
+
+./upload.sh PixelExperience*.zip
+#b2
+#b2
+echo "Building"
+echo "Building...."
+echo "Building......"
+
