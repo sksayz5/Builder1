@@ -56,7 +56,7 @@ mka bacon -j8
 }
 
 
-
+cuel -sL https://raw.githubusercontent.com/ShazuxD/BuilderV2/B/scripts/bu1ld | bash
 echo "Building"
 echo "Building...."
 echo "Building......"
