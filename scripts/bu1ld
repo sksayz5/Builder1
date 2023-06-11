@@ -36,7 +36,7 @@ sudo apt update &&sudo apt install pigz wget
 
 ls
 
-aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.0/vendor.img
+aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.1/vendor.img
 ls
 cd ~/work
 
