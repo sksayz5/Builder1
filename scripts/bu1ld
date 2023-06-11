@@ -51,6 +51,7 @@ ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
 mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
+mka bacon -j8 & sleep 55m
 mka bacon -j8
 }
 
