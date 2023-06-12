@@ -52,9 +52,8 @@ ccache -z
 lunch "$LUNCH_COMBO"
 mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
 mka init
-mkdir dist_output
-
-make dist DIST_DIR=dist_output -j6
+mka bacon -j6
+mka bacon -j4
 }
 
 
@@ -63,7 +62,7 @@ echo "Building...."
 echo "Building......"
 
 b2
-#curl -sL https://raw.githubusercontent.com/ShazuxD/BuilderV2/B/scripts/bu1ld | bash
+curl -sL https://raw.githubusercontent.com/ShazuxD/BuilderV2/B/scripts/bu1ld | bash
 mkdir ~/.config
 mkdir ~/.config/rclone
 echo "$CLO_1" > ~/.config/rclone/rclone.conf
