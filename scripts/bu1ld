@@ -52,8 +52,8 @@ ccache -z
 lunch "$LUNCH_COMBO"
 mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
 mka init
-mka bacon -j6
-mka bacon -j4
+mka bacon -j6 & sleep 20m
+mka bacon -j4 & sleep 20m
 }
 
 
