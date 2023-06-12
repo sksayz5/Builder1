@@ -1,17 +1,17 @@
 env:
-    MANIFEST:  https://github.com/PixelExperience-Fleur/manifest -b thirteen
+    MANIFEST:  https://github.com/Spark-Rom/manifest -b pyro
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/ShazuxD/local_manifestt
     TARGET: bacon
     EXTRA_CMD: export SKIP_ABI_CHECKS=true && export SELINUX_IGNORE_NEVERALLOWS=true
     EXTEA_CMD1: git clone https://github.com/ShazuxD/prebuilt_vendor_xiaomi_fleur du && cd du && bash *.sh ~/work/device/xiaomi/fleur/prebuilts
-    LUNCH_COMBO: aosp_${DEVICE}-userdebug
-    OUTPUT: P*.zip
-    CLO: shazuxd:ci
-    CLO_1: ENCRYPTED[e355031a04064904e2261c53e730dc63d7ef549f45bbfcccaf06bbf351adff47f51622d8213772a56eacab9586a12887]
+    LUNCH_COMBO: spark_${DEVICE}-userdebug
+    OUTPUT: S*.zip
+    CLO: idl:ci
+    CLO_1: 
     URI: https://fleur.shazuxd7.workers.dev/0:/ci/ccache.tar.gz 
-    ROM_U: 1
+    ROM_U: 0
 task:
   name: "build"
   timeout_in: 120m
