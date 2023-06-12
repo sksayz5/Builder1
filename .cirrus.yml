@@ -10,7 +10,7 @@ env:
     OUTPUT: S*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[d2dd0bb296948116fac1218dea0d7a3af1e2aacd2d151c8d15d4e4508b80ca3c0758ec94de1bfd411a1ae4b2f8517266]
-    URI: https://fleur.shazuxd7.workers.dev/0:/ci/ccache.tar.gz 
+    URI: https://abdullah.al-noman.workers.dev/0:/ccache.tar.gz 
     ROM_U: 0
 task:
   name: "build"
