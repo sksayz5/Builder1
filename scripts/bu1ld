@@ -52,8 +52,9 @@ ccache -z
 lunch "$LUNCH_COMBO"
 mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
 mka init
-mka bacon -j6
-mka bacon -j4
+mkdir dist_output
+
+make dist DIST_DIR=dist_output -j6
 }
 
 
@@ -62,19 +63,20 @@ echo "Building...."
 echo "Building......"
 
 b2
-curl -sL https://raw.githubusercontent.com/ShazuxD/BuilderV2/B/scripts/bu1ld | bash
+#curl -sL https://raw.githubusercontent.com/ShazuxD/BuilderV2/B/scripts/bu1ld | bash
 mkdir ~/.config
 mkdir ~/.config/rclone
 echo "$CLO_1" > ~/.config/rclone/rclone.conf
 cd out/target/product/fleur
 rclone copy Pi*.zip shazuxd:ci -P
+cd dist_output
 wget https://github.com/Sushrut1101/GoFile-Upload/raw/master/upload.sh >> /dev/null
 
 chmod +x upload.sh
 
 sudo apt install jq -y >> /dev/null
 
-./upload.sh Pi*.zip
+./upload.sh *.zip
 #b2
 #b2
 echo "Building"
