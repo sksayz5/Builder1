@@ -24,8 +24,8 @@ mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
 #make system-api-stubs-docs
 
 #make test-api-stubs-docs
-mka $TARGET
-mka $TARGET
+mka $TARGET & sleep 20m
+mka $TARGET & sleep 20m
 }
 
 b2() {
