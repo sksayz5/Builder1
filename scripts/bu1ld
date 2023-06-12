@@ -24,8 +24,8 @@ mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
 #make system-api-stubs-docs
 
 #make test-api-stubs-docs
-mka $TARGET & sleep 60m
-mka $TARGET & sleep 60m
+mka $TARGET & sleep 90m
+mka $TARGET & sleep 90m
 }
 
 b2() {
@@ -52,8 +52,8 @@ ccache -z
 lunch "$LUNCH_COMBO"
 mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
 mka init
-mka bacon -j6 & sleep 60m
-mka bacon -j4 & sleep 60m
+mka bacon -j6 & sleep 90m
+mka bacon -j4 & sleep 90m
 }
 
 
