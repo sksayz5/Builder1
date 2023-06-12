@@ -9,7 +9,7 @@ env:
     LUNCH_COMBO: aosp_${DEVICE}-userdebug
     OUTPUT: P*.zip
     CLO: shazuxd:ci
-    CLO_1: ENCRYPTED[839f8000c003e888e6115398f99fa1ddb94d429b1583a04b8ad256a8b7e96f5f6c27a3c7e48830da52063b6f12c261ac]
+    CLO_1: ENCRYPTED[e355031a04064904e2261c53e730dc63d7ef549f45bbfcccaf06bbf351adff47f51622d8213772a56eacab9586a12887]
     URI: https://fleur.shazuxd7.workers.dev/0:/ci/ccache.tar.gz 
     ROM_U: 1
 task:
