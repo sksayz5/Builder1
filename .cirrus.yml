@@ -5,7 +5,7 @@ env:
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
     TARGET: bacon
     EXTRA_CMD: export SKIP_ABI_CHECKS=true && export SELINUX_IGNORE_NEVERALLOWS=true
-    EXTEA_CMD1: git clone https://github.com/ShazuxD/prebuilt_vendor_xiaomi_fleur du && cd du && bash *.sh ~/work/device/xiaomi/fleur/prebuilts
+    #EXTEA_CMD1: git clone https://github.com/ShazuxD/prebuilt_vendor_xiaomi_fleur du && cd du && bash *.sh ~/work/device/xiaomi/fleur/prebuilts
     LUNCH_COMBO: spark_${DEVICE}-userdebug
     OUTPUT: S*.zip
     CLO: idl:ci
