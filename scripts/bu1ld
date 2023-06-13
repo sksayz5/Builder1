@@ -6,7 +6,7 @@ aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.0/vendor.img
 cd ~/work
 . build/envsetup.sh
 $EXTRA_CMD
-$EXTRA_CMD1
+
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
@@ -14,4 +14,5 @@ ccache -M 100G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
+$EXTRA_CMD1
 mka $TARGET -j8
