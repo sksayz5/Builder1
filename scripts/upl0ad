@@ -21,7 +21,7 @@ chmod +x upload.sh
 
 sudo apt install jq -y
 
-./upload.sh Spark*.zip
+./upload.sh S*.zip
 
 ./upload.sh B*.img
 
