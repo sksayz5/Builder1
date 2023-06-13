@@ -10,7 +10,7 @@ env:
     OUTPUT: S*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[d2dd0bb296948116fac1218dea0d7a3af1e2aacd2d151c8d15d4e4508b80ca3c0758ec94de1bfd411a1ae4b2f8517266]
-    URI: https://downloads.sourceforge.net/project/fleur/ccache/ccache.tar.gz?ts=gAAAAABkiC3_xwa5nEaM00KLApalMRCkhmYkS-XMISz8oM17tJU00n0cRzzTldFNKoiwNtS7LA6oy7daKmfzAyMgR4jfoqWP_A%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Ffleur%2Ffiles%2Fccache%2Fccache.tar.gz%2Fdownload%3Fuse_mirror%3Dmaster%26r%3Dhttps%253A%252F%252Fsourceforge.net%252Fprojects%252Ffleur%252Ffiles%252Fccache%252Fccache.tar.gz%252Fdownload
+    URI: https://sourceforge.net/projects/fleur/files/ccache/ccache.tar.gz/download
     ROM_U: 1
 task:
   name: "build"
