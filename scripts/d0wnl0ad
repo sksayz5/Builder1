@@ -7,6 +7,7 @@ cat /etc/os*
 env
 }
 sudo apt update &&sudo apt install pigz wget
+sudo apt install jq -y
 c_down() {
 cd /tmp
 time aria2c $URI -x16 -s50
