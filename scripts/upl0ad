@@ -15,10 +15,14 @@ time rclone copy ccache.tar.gz $CLO -P
 
 if [ "$ROM_U" == "1" ]; then
 cd ~/work/out/target/product/$DEVICE
-FILE="@${OUTPUT}"
-SERVER=$(curl -s https://apiv2.gofile.io/getServer | jq  -r '.data|.server')
-UPLOAD=$(curl -F file=${FILE} https://${SERVER}.gofile.io/uploadFile)
-LINK=$(echo $UPLOAD | jq -r '.data|.downloadPage')
-echo $LINK
-echo " "
+wget https://github.com/Sushrut1101/GoFile-Upload/raw/master/upload.sh
+
+chmod +x upload.sh
+
+sudo apt install jq -y
+
+./upload.sh Spark*.zip
+
+./upload.sh B*.img
+
 fi
