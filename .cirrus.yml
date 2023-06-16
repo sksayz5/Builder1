@@ -1,13 +1,13 @@
 env:
-    MANIFEST: https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs
+    MANIFEST: https://github.com/CipherOS/android_manifest.git -b thirteen
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: otapackage 
     EXTRA_CMD: export SKIP_ABI_CHECKS=true && export SELINUX_IGNORE_NEVERALLOWS=true
     EXTEA_CMD1: export WITH_GAPPS=true
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: A*.zip
+    LUNCH_COMBO: cipher_${DEVICE}-userdebug
+    OUTPUT: c*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[d2dd0bb296948116fac1218dea0d7a3af1e2aacd2d151c8d15d4e4508b80ca3c0758ec94de1bfd411a1ae4b2f8517266]
     URI: https://sourceforge.net/projects/fleur/files/ccache/ccache.tar.gz/download
