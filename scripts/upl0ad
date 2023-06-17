@@ -18,11 +18,6 @@ cd ~/work/out/target/product/$DEVICE
 wget https://github.com/Sushrut1101/GoFile-Upload/raw/master/upload.sh
 
 chmod +x upload.sh
-
-sudo apt install jq -y
-
-./upload.sh S*.zip
-
-./upload.sh B*.img
+./upload.sh $OUTPUT
 
 fi
