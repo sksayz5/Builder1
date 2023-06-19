@@ -9,7 +9,7 @@ env:
     LUNCH_COMBO: pixys_${DEVICE}-userdebug
     OUTPUT: P*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[d2dd0bb296948116fac1218dea0d7a3af1e2aacd2d151c8d15d4e4508b80ca3c0758ec94de1bfd411a1ae4b2f8517266]
+    CLO_1: ENCRYPTED[65f39ad35028565d747a3510a29171d410643f879f1e587ecaf4530bf32b9602d1fd44a68316e0bdfa5260ecf1f584f6]
     URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download 
     ROM_U: 1
 task:
