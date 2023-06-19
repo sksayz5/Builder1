@@ -1,12 +1,12 @@
 env:
-    MANIFEST: https://github.com/PixelOS-AOSP/manifest.git -b thirteen
+    MANIFEST: https://github.com/PixysOS/manifest -b thirteen
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
     EXTRA_CMD: export SKIP_ABI_CHECKS=true && export SELINUX_IGNORE_NEVERALLOWS=true
     EXTEA_CMD1: export WITH_GAPPS=true
-    LUNCH_COMBO: aosp_${DEVICE}-userdebug
+    LUNCH_COMBO: pixys_${DEVICE}-userdebug
     OUTPUT: P*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[d2dd0bb296948116fac1218dea0d7a3af1e2aacd2d151c8d15d4e4508b80ca3c0758ec94de1bfd411a1ae4b2f8517266]
