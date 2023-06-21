@@ -7,7 +7,7 @@ env:
     EXTRA_CMD: export SKIP_ABI_CHECKS=true && export SELINUX_IGNORE_NEVERALLOWS=true
     EXTEA_CMD1: export WITH_GAPPS=true
     LUNCH_COMBO: pixys_${DEVICE}-userdebug
-    OUTPUT: P*.zip
+    OUTPUT: Pix*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[65f39ad35028565d747a3510a29171d410643f879f1e587ecaf4530bf32b9602d1fd44a68316e0bdfa5260ecf1f584f6]
     URI: https://abdullah.al-noman.workers.dev/0:/ccache.tar.gz
