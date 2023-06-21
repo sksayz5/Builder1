@@ -3,9 +3,8 @@ env:
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
-    TARGET: bacon
-    EXTRA_CMD: export SKIP_ABI_CHECKS=true && export SELINUX_IGNORE_NEVERALLOWS=true
-    EXTEA_CMD1: export WITH_GAPPS=true
+    TARGET: pixys
+    
     LUNCH_COMBO: pixys_${DEVICE}-userdebug
     OUTPUT: Pix*.zip
     CLO: idl:ci
