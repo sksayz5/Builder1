@@ -8,13 +8,13 @@ env:
     OUTPUT: l*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[65f39ad35028565d747a3510a29171d410643f879f1e587ecaf4530bf32b9602d1fd44a68316e0bdfa5260ecf1f584f6]
-    URI: https://abdullah.al-noman.workers.dev/0:/ccache.tar.gz
+    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
     ROM_U: 1
 task:
   name: "build"
   timeout_in: 120m
   container:
-      image: apon77/aosp:cirrus
+      image: shazuxdd/ubuntu:latest
       cpu: 8
       memory: 32G
   Storage-Checker_script:
