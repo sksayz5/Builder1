@@ -14,7 +14,7 @@ task:
   name: "build"
   timeout_in: 120m
   container:
-      image: shazuxdd/ubuntu:latest
+      image: apon77/aosp:cirrus
       cpu: 8
       memory: 32G
   Storage-Checker_script:
