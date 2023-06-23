@@ -9,4 +9,4 @@ ccache -M 80G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
-mka $TARGET -j8
+brunch RMX1901
