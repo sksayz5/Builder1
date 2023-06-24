@@ -1,10 +1,10 @@
 env:
-    MANIFEST: https://github.com/ProjectBlaze/manifest.git -b 13
+    MANIFEST: https://github.com/ResurrectionRemix-Revived/manifest.git -b Q --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: blaze_${DEVICE}-userdebug
+    LUNCH_COMBO: rr_${DEVICE}-userdebug
     OUTPUT: P*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[65f39ad35028565d747a3510a29171d410643f879f1e587ecaf4530bf32b9602d1fd44a68316e0bdfa5260ecf1f584f6]
