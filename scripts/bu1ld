@@ -9,4 +9,5 @@ ccache -M 80G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
-mka $TARGET
+$EXTRA_CMD
+brunch $TARGET
