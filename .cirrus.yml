@@ -3,7 +3,7 @@ env:
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
-    TARGET: bacon
+    TARGET: RMX1901
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
     CLO: idl:ci
