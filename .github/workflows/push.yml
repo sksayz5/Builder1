@@ -22,7 +22,7 @@ jobs:
 
     - name: Cirrus Action
   uses: cirruslabs/cirrus-action@v2
-   with:
+      with:
 
         github_token: ${{ secrets.GH_TOKEN }}
         author_email: 'ci.twrp@gmail.com'
