@@ -20,9 +20,10 @@ jobs:
         echo  "::endgroup::"
         cat trigger.txt
 
-    - name: Commit & Push changes
-      uses: actions-js/push@master
-      with:
+    - name: Cirrus Action
+  uses: cirruslabs/cirrus-action@v2
+   with:
+
         github_token: ${{ secrets.GH_TOKEN }}
         author_email: 'ci.twrp@gmail.com'
         author_name: 'RecoveryBuilder'
