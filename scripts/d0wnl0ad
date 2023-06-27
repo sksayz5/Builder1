@@ -10,7 +10,7 @@ env
 c_down() {
 cd /tmp
 time aria2c $URI -x16 -s50
-time tar xf ccache.tar.gz
+time tar xf ccache.tar.gz.zip
 }
 
 echo "Checking free space"
