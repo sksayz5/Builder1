@@ -5,7 +5,7 @@ cd ~/work
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 80G
+ccache -M 100G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
