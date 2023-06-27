@@ -21,7 +21,7 @@ jobs:
         cat trigger.txt
 
     - name: Cirrus Action
-  uses: cirruslabs/cirrus-action@v2
+      uses: cirruslabs/cirrus-action@v2
       with:
 
         github_token: ${{ secrets.GH_TOKEN }}
