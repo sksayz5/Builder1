@@ -8,7 +8,7 @@ env:
     OUTPUT: O*.zip
     CLO: shazuxd:ci
     CLO_1: ENCRYPTED[!f1d6be2955abc0e707d19e911e742d164c53d4abd3136d5cda5bc0c25a09e9a7f8668ea263e382612f3f8de8f51a6413!]
-    URI: https://fleur.shazuxd7.workers.dev/0:/ci/ccache.tar.gz
+    URI: https://rmx1901.srasidda-ks.workers.dev/0:/ci/ccache.tar.gz/
     ROM_U: 1
 task:
   name: "build"
