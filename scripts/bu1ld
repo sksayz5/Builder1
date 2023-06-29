@@ -4,6 +4,7 @@ telegram_message() {
 	-d chat_id="${TG_CHAT_ID}" \
 	-d parse_mode="HTML" \
 	-d text="$1"
+}
 cd ~/work
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
