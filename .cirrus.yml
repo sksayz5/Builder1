@@ -11,7 +11,7 @@ env:
     URI: https://fleur.shazuxd7.workers.dev/0:/ci/ccache.tar.gz
     ROM_U: 1
     TG_CHAT_ID: ENCRYPTED[!61d018d2537497f21694cfc7612ff601e0fa06332c9384a17db81bb3ac1f59369c968e6056d5bb6f97bd22323bb58608!]
-    TG_TOKEN:
+    TG_TOKEN: ENCRYPTED[!f1d6be2955abc0e707d19e911e742d164c53d4abd3136d5cda5bc0c25a09e9a7f8668ea263e382612f3f8de8f51a6413!]
 
 
 task:
