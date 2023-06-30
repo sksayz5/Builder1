@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
+    MANIFEST: https://github.com/VoltageOS/manifest.git -b 13
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
-    TARGET: derp
-    LUNCH_COMBO: derp_${DEVICE}-userdebug
-    OUTPUT: D*.zip
+    TARGET: bacon
+    LUNCH_COMBO: voltage_${DEVICE}-userdebug
+    OUTPUT: v*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[!f1d6be2955abc0e707d19e911e742d164c53d4abd3136d5cda5bc0c25a09e9a7f8668ea263e382612f3f8de8f51a6413!]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
+    URI: https://sourceforge.net/projects/fleur/files/ccache/VoltageOS/ccache.tar.gz/download
     ROM_U: 1
     
 
