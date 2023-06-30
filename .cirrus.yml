@@ -1,11 +1,11 @@
 env:
-    MANIFEST: https://github.com/VoltageOS/manifest.git -b 13
+    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: voltage_${DEVICE}-userdebug
-    OUTPUT: v*.zip
+    LUNCH_COMBO: octavi_${DEVICE}-userdebug
+    OUTPUT: O*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[!f1d6be2955abc0e707d19e911e742d164c53d4abd3136d5cda5bc0c25a09e9a7f8668ea263e382612f3f8de8f51a6413!]
     URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/voltage/ccache.tar.gz/download
