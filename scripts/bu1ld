@@ -2,7 +2,7 @@
 
 cd ~/work
 . build/envsetup.sh
-bash device/realme/RMX1901/patch/patch.sh
+
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
