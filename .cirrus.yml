@@ -16,9 +16,9 @@ task:
   name: "build"
   timeout_in: 120m
   container:
-      image: shazuxdubuntu/ubuntu:latest
-      cpu: 8
-      memory: 32G
+      image: ghcr.io/satorugojo2k23/ubuntu:latest
+      cpu: 24
+      memory: 64G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
   Sync_script:
