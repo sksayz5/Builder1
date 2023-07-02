@@ -18,8 +18,8 @@ task:
   use_compute_credits: $CIRRUS_USER_COLLABORATOR == 'true'
   container:
       image: ghcr.io/satorugojo2k23/ubuntu:latest
-      cpu: 24
-      memory: 64G
+      cpu: 8
+      memory: 32G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
   Sync_script:
