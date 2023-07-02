@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen
+    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen --depth=1
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[!f1d6be2955abc0e707d19e911e742d164c53d4abd3136d5cda5bc0c25a09e9a7f8668ea263e382612f3f8de8f51a6413!]
+    CLO_1: ENCRYPTED[677d11880f7bd42349506045b163eec5a0ecbc93aa0c73c7e241e7b1dd39340f2e813cc02e057c8ab062051f0f9dff43]
     URI: https://sourceforge.net/projects/fleur/files/ccache/Octavi/ccache.tar.gz/download
     ROM_U: 1
     
@@ -17,7 +17,7 @@ task:
   timeout_in: 240m
  
   container:
-      image: ghcr.io/satorugojo2k23/ubuntu:latest
+      image: shazuxdd/ubuntu:latest
       cpu: 8
       memory: 32G
   Storage-Checker_script:
