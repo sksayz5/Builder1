@@ -18,8 +18,8 @@ task:
   
   container:
       image: ghcr.io/satorugojo2k23/ubuntu:latest
-      cpu: 8
-      memory: 32G
+      cpu: 24
+      memory: 64G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
   Sync_script:
