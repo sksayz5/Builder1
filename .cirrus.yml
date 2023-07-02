@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[!677d11880f7bd42349506045b163eec5a0ecbc93aa0c73c7e241e7b1dd39340f2e813cc02e057c8ab062051f0f9dff43!]
+    CLO_1: ENCRYPTED[!b71a13e9e965a996b143f7e4b733cdc03d97a3fd55cd33ad578c2c386e51c6bd1fa087132ddb28de65c75a786a00142a!]
     URI: https://sourceforge.net/projects/fleur/files/ccache/Octavi/ccache.tar.gz/download
     ROM_U: 1
     
