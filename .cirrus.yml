@@ -15,7 +15,7 @@ env:
 task:
   name: "build"
   timeout_in: 240m
-  
+  use_compute_credits: $CIRRUS_USER_COLLABORATOR == 'true'
   container:
       image: ghcr.io/satorugojo2k23/ubuntu:latest
       cpu: 8
