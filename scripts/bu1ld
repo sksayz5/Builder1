@@ -1,8 +1,8 @@
 #!/bin/bash
-
+cd ~/work/device/realme/RMX1901/prebuilts
+aria2c https://github.com/Shravan55555/extras/releases/download/publish/vendor.img
 cd ~/work
 . build/envsetup.sh
-
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
