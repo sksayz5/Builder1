@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/work/vendor/realme/RMX1901/prebuilts
+cd ~/work/vendor/realme/RMX1901
 aria2c https://github.com/Shravan55555/extras/releases/download/publish/vendor.img
 ls
 cd ~/work
