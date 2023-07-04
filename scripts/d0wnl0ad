@@ -7,7 +7,6 @@ cat /etc/os*
 env
 }
 sudo apt update &&sudo apt install pigz wget
-sudo apt install gcc g++
 sudo apt install jq -y
 c_down() {
 cd /tmp
