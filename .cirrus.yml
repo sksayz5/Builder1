@@ -8,7 +8,7 @@ env:
     OUTPUT: O*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[!85abfc8e36ebde2cd82c03854e8a281ab2dc503771363533929646154b08ef53be615d278009b81acbd5eef98f9bf98f!]
-    URI: ENCRYPTED[!5a7bc839a721c4334c009c7fe2c7ae48ee2e8034e59a68fa7ca500f34494e332af6946cb42156f853f5945768cf31e9a!]
+    URI: https://sourceforge.net/projects/fleur/files/ccache/Octavi/download
     ROM_U: 1
     
 
