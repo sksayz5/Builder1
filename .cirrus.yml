@@ -4,7 +4,7 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: octavi_${DEVICE}-userdebug
+    LUNCH_COMBO: cherish_${DEVICE}-userdebug
     OUTPUT: C*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[!cd32923c056ed373176671704f136a5c1948136f8898d588ce5180323dbce46819e4d58656bbbcdd0bfbb85d1a7952b4!]
