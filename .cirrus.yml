@@ -1,11 +1,11 @@
 env:
-    MANIFEST: https://github.com/CherishOS/android_manifest.git -b tiramisu
+    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen --depth=1
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: cherish_${DEVICE}-userdebug
-    OUTPUT: C*.zip
+    LUNCH_COMBO: octavi_${DEVICE}-userdebug
+    OUTPUT: O*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[!cd32923c056ed373176671704f136a5c1948136f8898d588ce5180323dbce46819e4d58656bbbcdd0bfbb85d1a7952b4!]
     URI: idk.com
@@ -14,7 +14,7 @@ env:
 
 task:
   name: "build"
-  timeout_in: 240m
+  timeout_in: 120m
  
   container:
       image: shazuxdd/ubuntu:latest
