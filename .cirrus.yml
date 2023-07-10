@@ -7,9 +7,9 @@ env:
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[!cd32923c056ed373176671704f136a5c1948136f8898d588ce5180323dbce46819e4d58656bbbcdd0bfbb85d1a7952b4!]
-    URI: idk.com
-    ROM_U: 0
+    CLO_1: ENCRYPTED[!83fe20439587ba1d43906ed270982fa2d3721b200690ba992445df6d95e4916a6634227e6040da011d2bf7a8f1698f1a!]
+    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/octavi/ccache.tar.gz/download
+    ROM_U: 1
     
 
 task:
