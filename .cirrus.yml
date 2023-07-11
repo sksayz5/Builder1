@@ -8,7 +8,7 @@ env:
     OUTPUT: O*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[!9ae6c774603b6504a7f2f9b2b4e8d6c01d9be52b9065548f2e6eda06742f776215685a1e6aec8174ace7e42208e5f85f!]
-    URI: https://realme-x.srasidda-ks.workers.dev/1:/ci/ccache.tar.gz.zip
+    URI: https://realme-x.srasidda-ks.workers.dev/0:/ci/ccache.tar.gz.zip/download
     ROM_U: 1
     
 
