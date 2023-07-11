@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[!9ae6c774603b6504a7f2f9b2b4e8d6c01d9be52b9065548f2e6eda06742f776215685a1e6aec8174ace7e42208e5f85f!]
+    CLO_1: ENCRYPTED[!69ea26db16f43255a2d887dc975862135e9fed4237537c1e2428762e68134d119c1cb9194a6bb60f972eaaedc9a76192!]
     URI: https://realme-x.srasidda-ks.workers.dev/0:/ci/ccache.tar.gz.zip
     ROM_U: 1
     
