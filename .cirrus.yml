@@ -6,8 +6,8 @@ env:
     TARGET: bacon
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
-    CLO: idl:ci
-    CLO_1: ENCRYPTED[!69ea26db16f43255a2d887dc975862135e9fed4237537c1e2428762e68134d119c1cb9194a6bb60f972eaaedc9a76192!]
+    CLO: ci:ccache
+    CLO_1: ENCRYPTED[!947fe9508d1e32f802672bc604f9ec2792d0abc09635d7db1fe2fb693225f20f6bfd7c8665d40a55743d25cb08b62b08!]
     URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/octavi/ccache.tar.gz/download
     ROM_U: 1
     
