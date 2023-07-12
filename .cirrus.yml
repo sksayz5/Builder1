@@ -4,7 +4,7 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: aosp_${DEVICE}-userdebug
+    LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: R*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[c65ebd134a11f7259726ea96bec03a35d917008293f6afee25a593f8c1814c493e8f4606ccfc948ac28abfc47bd1767e
