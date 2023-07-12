@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen --depth=1
+    MANIFEST: https://github.com/RisingTechOSS/android -b thirteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: octavi_${DEVICE}-userdebug
-    OUTPUT: O*.zip
-    CLO: ci:ccache
-    CLO_1: ENCRYPTED[!947fe9508d1e32f802672bc604f9ec2792d0abc09635d7db1fe2fb693225f20f6bfd7c8665d40a55743d25cb08b62b08!]
-    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/octavi/ccache.tar.gz/download
+    LUNCH_COMBO: aosp_${DEVICE}-userdebug
+    OUTPUT: R*.zip
+    CLO: idl:ci
+    CLO_1: ENCRYPTED[c65ebd134a11f7259726ea96bec03a35d917008293f6afee25a593f8c1814c493e8f4606ccfc948ac28abfc47bd1767e
+    URI: https://realme-x.srasidda-ks.workers.dev/0:/ci/ccache.tar.gz.zip
     ROM_U: 1
     
 
