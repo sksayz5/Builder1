@@ -8,7 +8,7 @@ env:
     OUTPUT: O*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[!69ea26db16f43255a2d887dc975862135e9fed4237537c1e2428762e68134d119c1cb9194a6bb60f972eaaedc9a76192!]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/Octavi/ccache.tar.gz/download
+    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/octavi/ccache.tar.gz/download
     ROM_U: 1
     
 
