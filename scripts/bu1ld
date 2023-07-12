@@ -10,4 +10,4 @@ ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
 $EXTRA_CMD
-mka $TARGET -jX
+mka $TARGET -j8
