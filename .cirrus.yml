@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: R*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[72f5f86617bdbce7d0624241a91bdb2aa74a559018877b891dc83c1701ff368fbb8d88636957cd6345244c2d62ec1d8a]
+    CLO_1: ENCRYPTED[!72f5f86617bdbce7d0624241a91bdb2aa74a559018877b891dc83c1701ff368fbb8d88636957cd6345244c2d62ec1d8a!]
     URI: https://realme-x.srasidda-ks.workers.dev/0:/ci/ccache.tar.gz.zip
     ROM_U: 1
     
