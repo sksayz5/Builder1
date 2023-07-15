@@ -6,7 +6,7 @@ env:
     TARGET: bacon
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
-    CLO: idl:ci
+    CLO: RMX1901:ci
     CLO_1: ENCRYPTED[!713136b43e5a2b6e53ec60c339cd628919ddd0d29e5d4318eab84a7e80e3457f67436c01c21eacdd49f31a4940f2e1bc!]
     URI: example.com
     ROM_U: 0
