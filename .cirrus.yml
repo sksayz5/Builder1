@@ -1,13 +1,13 @@
 env:
-    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs
+    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen --depth=1
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: H*.zip
+    LUNCH_COMBO: octavi_${DEVICE}-userdebug
+    OUTPUT: O*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[!72f5f86617bdbce7d0624241a91bdb2aa74a559018877b891dc83c1701ff368fbb8d88636957cd6345244c2d62ec1d8a!]
+    CLO_1: ENCRYPTED[!713136b43e5a2b6e53ec60c339cd628919ddd0d29e5d4318eab84a7e80e3457f67436c01c21eacdd49f31a4940f2e1bc!]
     URI: example.com
     ROM_U: 0
     
