@@ -6,10 +6,10 @@ env:
     TARGET: bacon
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
-    CLO: RMX1901:ci
+    CLO: idl:ci
     CLO_1: ENCRYPTED[!713136b43e5a2b6e53ec60c339cd628919ddd0d29e5d4318eab84a7e80e3457f67436c01c21eacdd49f31a4940f2e1bc!]
-    URI: example.com
-    ROM_U: 0
+    URI: https://drive.google.com/open?id=1-4Hljv9zFki2JezF_R5-GM97CcsUVaN8
+    ROM_U: 1
     
 
 task:
