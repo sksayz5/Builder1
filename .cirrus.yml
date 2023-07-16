@@ -4,9 +4,10 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
+    EXTRA_CMD: export SKIP_ABI_CHECKS=true
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: H*.zip
-    CLO: sk:ci
+    CLO: idl:ci
     CLO_1: ENCRYPTED[!713136b43e5a2b6e53ec60c339cd628919ddd0d29e5d4318eab84a7e80e3457f67436c01c21eacdd49f31a4940f2e1bc!]
     URI: example.com
     ROM_U: 0
