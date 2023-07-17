@@ -8,7 +8,7 @@ env:
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: r*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[!713136b43e5a2b6e53ec60c339cd628919ddd0d29e5d4318eab84a7e80e3457f67436c01c21eacdd49f31a4940f2e1bc!]
+    CLO_1: ENCRYPTED[!1e45e46d9b6dfca88dcbd3fc907b0c10fe83a441391f9edf1b456a1a55ccd6550e61fa7efddf51a6b1d3bc292a3da02e!]
     URI: example.com
     ROM_U: 0
     
