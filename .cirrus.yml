@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
+    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: derp_${DEVICE}-userdebug
-    OUTPUT: D*.zip
+    LUNCH_COMBO: octavi_${DEVICE}-userdebug
+    OUTPUT: O*.zip
     CLO: 1:RMX1901
     CLO_1: ENCRYPTED[!e54eb99577b2251f1b956656905bb4f59a561b3f1412584ad86922e6de981ec5f2f5e87c2ec45812a14005883636fc01!]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
+    URI: https://sourceforge.net/projects/fleur/files/ccache/Octavi/ccache.tar.gz/download
     ROM_U: 1
     
 
