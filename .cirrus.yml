@@ -7,8 +7,8 @@ env:
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: r*.zip
-    CLO: idl:ci
-    CLO_1: ENCRYPTED[!e54eb99577b2251f1b956656905bb4f59a561b3f1412584ad86922e6de981ec5f2f5e87c2ec45812a14005883636fc01!]
+    CLO: 0:ci
+    CLO_1: ENCRYPTED[!72f5f86617bdbce7d0624241a91bdb2aa74a559018877b891dc83c1701ff368fbb8d88636957cd6345244c2d62ec1d8a!]
     URI: example.com
     ROM_U: 0
     
