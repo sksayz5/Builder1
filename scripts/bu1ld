@@ -1,13 +1,13 @@
 #!/bin/bash
-
 cd ~/work
-. build/envsetup.sh
+rm -rf build/soong
+git clone https://github.com/crdroidandroid/android_build_soong.git build/soong
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
 ccache -M 100G
 ccache -o compression=true
 ccache -z
+. build/envsetup.sh
 lunch "$LUNCH_COMBO"
-$EXTRA_CMD
-mka $TARGET -j7
+mka $TARGET -j7 
