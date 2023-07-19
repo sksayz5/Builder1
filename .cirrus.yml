@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/RisingTechOSS/android -b thirteen --git-lfs
+    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: r*.zip
+    LUNCH_COMBO: derp_${DEVICE}-userdebug
+    OUTPUT: D*.zip
     CLO: 1:RMX1901
     CLO_1: ENCRYPTED[!e54eb99577b2251f1b956656905bb4f59a561b3f1412584ad86922e6de981ec5f2f5e87c2ec45812a14005883636fc01!]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/RisingOS/ccache.tar.gz/download
+    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
     ROM_U: 1
     
 
