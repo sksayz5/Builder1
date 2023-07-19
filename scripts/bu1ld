@@ -10,4 +10,4 @@ ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
 $EXTRA_CMD
-mka $TARGET -j$(nproc --all)
+mka $TARGET -j7
