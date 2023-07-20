@@ -1,21 +1,19 @@
 env:
-    MANIFEST: https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs
+    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: A*.zip
-    CLO: RMX1901
-    CLO_1: ENCRYPTED[!6f655cf874276175b972fd352a1965217cdf543f495270059a951f33c17b58ee08ffa8a1aa43d69ac4edeefa9a49fac3!]
-    URI: https://sourceforge.net/projects/ccachex01bd/files/al/ccache.tar.gz/download
+    OUTPUT: H*.zip
+    CLO: RMX1901:AppDrive
+    CLO_1: ENCRYPTED[!bc1e6bb3689e58441c8abedee261e86a68a43950b30574a7e5452078292d6f50e7afd6d84f9c00a6a71be4de4c53923a!]
+    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/Havoc/ccache.tar.gz/download
     ROM_U: 1
     
-
 task:
   name: "build"
   timeout_in: 120m
- 
   container:
       image: shazuxdd/ubuntu:latest
       cpu: 8
