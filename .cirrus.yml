@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs
+    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
