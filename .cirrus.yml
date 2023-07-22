@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen
+    MANIFEST: https://github.com/Project-Awaken/android_manifest -b triton --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: octavi_${DEVICE}-userdebug
+    LUNCH_COMBO: awaken_${DEVICE}-userdebug
     OUTPUT: O*.zip
     CLO: RMX1901:AppDrive
     CLO_1: ENCRYPTED[!bc1e6bb3689e58441c8abedee261e86a68a43950b30574a7e5452078292d6f50e7afd6d84f9c00a6a71be4de4c53923a!]
-    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/Octavi/ccache.tar.gz/download
-    ROM_U: 1
+    URI: example.com
+    ROM_U: 0
     
 task:
   name: "build"
