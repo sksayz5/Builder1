@@ -5,9 +5,9 @@ env:
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
     LUNCH_COMBO: awaken_${DEVICE}-userdebug
-    OUTPUT: O*.zip
+    OUTPUT: a*.zip
     CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!bc1e6bb3689e58441c8abedee261e86a68a43950b30574a7e5452078292d6f50e7afd6d84f9c00a6a71be4de4c53923a!]
+    CLO_1: ENCRYPTED[!16f68dd6cd6c746bb67a5d6bdf9b7027db69de8332aa9606f676cff8a20e5990b0d32851a42603b3c26242982572ad36!]
     URI: example.com
     ROM_U: 0
     
