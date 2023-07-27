@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs
+    MANIFEST: https://github.com/PixelExtended/manifest -b thunder
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest-1.git
     TARGET: bacon
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: H*.zip
+    LUNCH_COMBO: aosp_${DEVICE}-userdebug
+    OUTPUT: P*.zip
     CLO: RMX1901:AppDrive
     CLO_1: ENCRYPTED[!9307771b67b93b458d68c3302aa66582f9574e18ba0f8c6eba8ecf5f2db99ac5f3819eea3eee5c09c71d99a9c6f06054!]
-    URI: example.com
-    ROM_U: 0
+    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/Pex/ccache.tar.gz/download
+    ROM_U: 1
     
 task:
   name: "build"
