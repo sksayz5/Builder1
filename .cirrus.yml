@@ -4,7 +4,6 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest-1.git
     TARGET: bacon
-    EXTRA_CMD: export SKIP_ABI_CHECKS=true
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
     OUTPUT: O*.zip
     CLO: RMX1901:AppDrive
