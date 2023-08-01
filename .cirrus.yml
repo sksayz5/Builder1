@@ -4,7 +4,7 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: Havoc_${DEVICE}-userdebug
+    LUNCH_COMBO: havoc_${DEVICE}-userdebug
     OUTPUT: H*.zip
     CLO: RMX1901:AppDrive
     CLO_1: ENCRYPTED[!9307771b67b93b458d68c3302aa66582f9574e18ba0f8c6eba8ecf5f2db99ac5f3819eea3eee5c09c71d99a9c6f06054!]
