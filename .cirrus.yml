@@ -6,8 +6,8 @@ env:
     TARGET: bacon
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: H*.zip
-    CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!2738a01c0a313a9c3914131e98af0c9e07fad83b3c938706b696bc152b96d9762b5fc883a0126701b4f22a823525eb8c!]
+    CLO: #RMX1901:AppDrive
+    CLO_1: #ENCRYPTED[!2738a01c0a313a9c3914131e98af0c9e07fad83b3c938706b696bc152b96d9762b5fc883a0126701b4f22a823525eb8c!]
     URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/Havoc/ccache.tar.gz/download
     ROM_U: 1
     
