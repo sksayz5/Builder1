@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: H*.zip
     CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!9307771b67b93b458d68c3302aa66582f9574e18ba0f8c6eba8ecf5f2db99ac5f3819eea3eee5c09c71d99a9c6f06054!]
+    CLO_1: ENCRYPTED[!2738a01c0a313a9c3914131e98af0c9e07fad83b3c938706b696bc152b96d9762b5fc883a0126701b4f22a823525eb8c!]
     URI: example
     ROM_U: 0
     
