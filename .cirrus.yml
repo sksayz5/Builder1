@@ -10,7 +10,7 @@ env:
     CLO: #RMX1901:AppDrive
     CLO_1: #ENCRYPTED[!3a39c874400749bc6d2c4cbf55355465484c5e76f0e18b4136f59baaddc4881cfe62780c1a25e3dd1de630540ce260ee!]
     URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/Pb/ccache.tar.gz/download
-    ROM_U: 0
+    ROM_U: 1
     
 task:
   name: "build"
