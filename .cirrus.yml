@@ -1,12 +1,12 @@
 env:
-    MANIFEST: https://github.com/RisingTechOSS/android -b thirteen --git-lfs
+    MANIFEST: https://github.com/PixysOS/manifest -b thirteen
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: r*.zip
+    LUNCH_COMBO: pixys_${DEVICE}-userdebug
+    OUTPUT: P*.zip
     CLO: RMX1901:AppDrive
     CLO_1: ENCRYPTED[!2738a01c0a313a9c3914131e98af0c9e07fad83b3c938706b696bc152b96d9762b5fc883a0126701b4f22a823525eb8c!]
     URI: #https://sourceforge.net/projects/realme-x-1901/files/ccache/Pb/ccache.tar.gz/download
