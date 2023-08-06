@@ -8,7 +8,7 @@ env:
     LUNCH_COMBO: pixys_${DEVICE}-userdebug
     OUTPUT: P*.zip
     CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!2738a01c0a313a9c3914131e98af0c9e07fad83b3c938706b696bc152b96d9762b5fc883a0126701b4f22a823525eb8c!]
+    CLO_1: ENCRYPTED[!3a39c874400749bc6d2c4cbf55355465484c5e76f0e18b4136f59baaddc4881cfe62780c1a25e3dd1de630540ce260ee!]
     URI: #https://sourceforge.net/projects/realme-x-1901/files/ccache/Pb/ccache.tar.gz/download
     ROM_U: 0
     
