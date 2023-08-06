@@ -4,6 +4,8 @@ mkdir -p ~/work
 cd ~/work
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
+git clone https://github.com/shravansayz/android_build.git
+git clone https://github.com/shravansayz/android_vendor_rising.git
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle -j8
 }
 
