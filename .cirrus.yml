@@ -1,16 +1,15 @@
 env:
-    MANIFEST: https://github.com/SuperiorOS/manifest.git -b thirteen
+    MANIFEST: https://github.com/DroidX-UI/manifest.git -b 13
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: superior_${DEVICE}-userdebug
-    OUTPUT: S*.zip
-    CLO: #RMX1901:AppDrive
-    CLO_1: #ENCRYPTED[!3a39c874400749bc6d2c4cbf55355465484c5e76f0e18b4136f59baaddc4881cfe62780c1a25e3dd1de630540ce260ee!]
-    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/superior/ccache.tar.gz/download
-    ROM_U: 1
+    LUNCH_COMBO: droidx_${DEVICE}-userdebug
+    OUTPUT: d*.zip
+    CLO: RMX1901:AppDrive
+    CLO_1: ENCRYPTED[!3a39c874400749bc6d2c4cbf55355465484c5e76f0e18b4136f59baaddc4881cfe62780c1a25e3dd1de630540ce260ee!]
+    URI: 
+    ROM_U: 0
     
 task:
   name: "build"
