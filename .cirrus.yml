@@ -6,8 +6,8 @@ env:
     TARGET: bacon
     LUNCH_COMBO: droidx_${DEVICE}-userdebug
     OUTPUT: d*.zip
-    CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!3a39c874400749bc6d2c4cbf55355465484c5e76f0e18b4136f59baaddc4881cfe62780c1a25e3dd1de630540ce260ee!]
+    CLO: 1901:SK
+    CLO_1: ENCRYPTED[!3daa7164800477b90109363c4b780a2078ccad4a8984eef7dfcee8dcf1c89cadb8083cb8cd70ebc069163fab92392551!]
     URI: 
     ROM_U: 0
     
