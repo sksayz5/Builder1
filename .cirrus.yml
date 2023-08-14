@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: r*.zip
     CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!59291223a3c834b9ac85ba30a59251d50d8f6ef594774f2cddfe6882177fdc931d7d72ab353d380dadf9811b16f57a84!]
+    CLO_1: ENCRYPTED[!e38a5ce8a8a360e025abb097a6e221f6095aab4f93d6756a7e654a6257025f1cedfe00de004546230a7d1a7d88e38397!]
     URI: #https://sourceforge.net/projects/realme-x-1901/files/ccache/droid/ccache.tar.gz/download
     ROM_U: 0
     
