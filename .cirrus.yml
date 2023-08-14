@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/DroidX-UI/manifest.git -b 13
+    MANIFEST: https://github.com/RisingTechOSS/android -b thirteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: droidx_${DEVICE}-userdebug
-    OUTPUT: d*.zip
+    LUNCH_COMBO: lineage_${DEVICE}-userdebug
+    OUTPUT: r*.zip
     CLO: #RMX1901:AppDrive
     CLO_1: #ENCRYPTED[!59291223a3c834b9ac85ba30a59251d50d8f6ef594774f2cddfe6882177fdc931d7d72ab353d380dadf9811b16f57a84!]
-    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/droid/ccache.tar.gz/download
-    ROM_U: 1
+    URI: #https://sourceforge.net/projects/realme-x-1901/files/ccache/droid/ccache.tar.gz/download
+    ROM_U: 0
     
 task:
   name: "build"
