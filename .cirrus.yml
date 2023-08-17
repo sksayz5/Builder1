@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/PixelExtended/manifest -b thunder
+    MANIFEST: https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: aosp_${DEVICE}-userdebug
-    OUTPUT: P*.zip
-    CLO: #RMX1901:AppDrive
-    CLO_1: #ENCRYPTED[!e38a5ce8a8a360e025abb097a6e221f6095aab4f93d6756a7e654a6257025f1cedfe00de004546230a7d1a7d88e38397!]
-    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/pex/ccache.tar.gz/download
-    ROM_U: 1
+    LUNCH_COMBO: lineage_${DEVICE}-userdebug
+    OUTPUT: A*.zip
+    CLO: RMX1901:AppDrive
+    CLO_1: ENCRYPTED[!e38a5ce8a8a360e025abb097a6e221f6095aab4f93d6756a7e654a6257025f1cedfe00de004546230a7d1a7d88e38397!]
+    URI: #https://sourceforge.net/projects/realme-x-1901/files/ccache/pex/ccache.tar.gz/download
+    ROM_U: 0
     
 task:
   name: "build"
