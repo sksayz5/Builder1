@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs
+    MANIFEST: https://github.com/VoltageOS/manifest.git -b 13
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: A*.zip
-    CLO: #RMX1901:AppDrive
-    CLO_1: #ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
-    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/alpha/ccache.tar.gz/download
-    ROM_U: 1
+    LUNCH_COMBO: voltage_${DEVICE}-userdebug
+    OUTPUT: V*.zip
+    CLO: RMX1901:AppDrive
+    CLO_1: ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
+    URI: #https://sourceforge.net/projects/realme-x-1901/files/ccache/alpha/ccache.tar.gz/download
+    ROM_U: 0
     
 task:
   name: "build"
