@@ -1,13 +1,13 @@
 env:
-    MANIFEST: https://github.com/Spark-Rom/manifest -b pyro-next
+    MANIFEST: https://github.com/Havoc-OS-Revived/android_manifest.git -b eleven --git-lfs -b pyro-next
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifest.git -b spark
+    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: spark_${DEVICE}-userdebug
-    OUTPUT: S*.zip
-    CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
+    LUNCH_COMBO: havoc_${DEVICE}-userdebug
+    OUTPUT: h*.zip
+    CLO: #RMX1901:AppDrive
+    CLO_1: #ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
     URI: #https://sourceforge.net/projects/realme-x-1901/files/ccache/Rise/ccache.tar.gz/download
     ROM_U: 0
     
