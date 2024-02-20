@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/AfterLifePrjkt13/android_manifest.git -b LTS -g default,-mips,-darwin,-notdefault
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git
+    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
     LUNCH_COMBO: afterlife_${DEVICE}-userdebug
     OUTPUT: a*.zip
