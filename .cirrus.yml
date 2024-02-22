@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/RisingTechOSS/android -b fourteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git
+    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
     LUNCH_COMBO: rising_${DEVICE}-userdebug
     OUTPUT: r*.zip
