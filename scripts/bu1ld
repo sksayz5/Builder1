@@ -7,6 +7,5 @@ ccache -M 100G
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh
-opt_patch
 lunch "$LUNCH_COMBO"
 m $TARGET -j8
