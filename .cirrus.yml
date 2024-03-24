@@ -1,10 +1,10 @@
 env:
-    MANIFEST: https://github.com/bananadroid/android_manifest.git -b 14 --git-lfs
+    MANIFEST: https://github.com/ProjectBlaze/manifest -b 14 --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
+    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b droid
     TARGET: bacon
-    LUNCH_COMBO: banana_${DEVICE}-userdebug
+    LUNCH_COMBO: blaze_${DEVICE}-userdebug
     OUTPUT: r*.zip
     CLO: #RMX1901:AppDrive
     CLO_1: #ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
@@ -16,8 +16,8 @@ task:
   timeout_in: 120m
   container:
       image: accupara/ubuntu:22.04
-      cpu: 24
-      memory: 120G
+      cpu: 8
+      memory: 32G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
   Sync_script:
