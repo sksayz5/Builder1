@@ -4,7 +4,7 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b test
     TARGET: ./rom-build.sh RMX1901
-    LUNCH_COMBO: aospa_${DEVICE}-user
+    LUNCH_COMBO: aospa_${DEVICE}-userdebug
     OUTPUT: r*.zip
     CLO: #RMX1901:AppDrive
     CLO_1: #ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
@@ -15,7 +15,7 @@ task:
   name: "build"
   timeout_in: 120m
   container:
-      image: apon77/aosp:cirrus
+      image: accupara/ubuntu:22.04
       cpu: 8
       memory: 32G
   Storage-Checker_script:
