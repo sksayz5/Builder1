@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/SomethingOS/manifest -b uvite
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b test
+    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main
     TARGET: ./rom-build.sh RMX1901
     LUNCH_COMBO: aospa_${DEVICE}-userdebug
     OUTPUT: r*.zip
