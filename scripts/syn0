@@ -7,6 +7,7 @@ git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
+cd kernel/kernel/sdm710 && curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash - && cd ../../..
 }
 
 echo "Syncing Rom and Device Sources..."
