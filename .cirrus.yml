@@ -1,10 +1,10 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 14
+    MANIFEST: https://github.com/ProjectInfinity-X/manifest -b QPR2 --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main
+    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b test
     TARGET: derp
-    LUNCH_COMBO: derp_${DEVICE}-userdebug
+    LUNCH_COMBO: infinity_${DEVICE}-userdebug
     OUTPUT: r*.zip
     CLO: #RMX1901:AppDrive
     CLO_1: #ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
