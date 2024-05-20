@@ -3,7 +3,7 @@ env:
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b test
-    TARGET: derp
+    TARGET: bacon
     LUNCH_COMBO: infinity_${DEVICE}-userdebug
     OUTPUT: r*.zip
     CLO: #RMX1901:AppDrive
