@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/Los-Ext/manifest.git -b lineage-21.0 --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b los21
+    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main
     TARGET: bacon
     LUNCH_COMBO: lineage_${DEVICE}-ap1a-userdebug
     OUTPUT: r*.zip
