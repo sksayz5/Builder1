@@ -1,10 +1,10 @@
 env:
-    MANIFEST: https://github.com/Los-Ext/manifest.git -b lineage-21.0 --git-lfs
+    MANIFEST: https://github.com/DroidX-UI/manifest.git -b 14_v2 --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main
+    LOCAL_MANIFEST: https://github.com/shravnsayz/local_manifests.git -b test
     TARGET: bacon
-    LUNCH_COMBO: lineage_${DEVICE}-ap1a-userdebug
+    LUNCH_COMBO: droidx_${DEVICE}-ap1a-userdebug
     OUTPUT: r*.zip
     CLO: #RMX1901:AppDrive
     CLO_1: #ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
