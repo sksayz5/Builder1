@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/DroidX-UI/manifest.git -b 14_v2 --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/shravnsayz/local_manifests.git -b test
+    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b test
     TARGET: bacon
     LUNCH_COMBO: droidx_${DEVICE}-ap1a-userdebug
     OUTPUT: r*.zip
