@@ -1,10 +1,10 @@
 env:
-    MANIFEST: https://github.com/DroidX-UI/manifest.git -b 14_v2 --git-lfs
+    MANIFEST: init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b test
     TARGET: bacon
-    LUNCH_COMBO: droidx_${DEVICE}-ap1a-userdebug
+    LUNCH_COMBO: aosp_${DEVICE}-ap1a-userdebug
     OUTPUT: r*.zip
     CLO: #RMX1901:AppDrive
     CLO_1: #ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
