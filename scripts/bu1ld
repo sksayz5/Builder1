@@ -7,6 +7,6 @@ ccache -M 100G
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh
-lineage_RMX1901-ap1a-userdebug
+lunch lineage_RMX1901-userdebug
 make install clean
 m evolution
