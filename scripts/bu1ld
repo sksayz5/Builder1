@@ -7,6 +7,6 @@ ccache -M 100G
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh
-riseup RMX1901 user
+lineage_RMX1901-userdebug
 make install clean
-rise b
+m evolution
