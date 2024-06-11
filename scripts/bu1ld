@@ -7,6 +7,5 @@ ccache -M 100G
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh
-lunch aosp_RMX1901-ap1a-userdebug
-make install clean
-mka bacon
+lunch aosp_RMX1901-ap1a-user
+m target-files-package otatools
