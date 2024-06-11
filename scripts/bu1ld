@@ -6,6 +6,6 @@ export USE_CCACHE=1
 ccache -M 100G
 ccache -o compression=true
 ccache -z
-. build/envsetup.sh
-lunch aosp_RMX1901-ap1a-user
-m target-files-package otatools
+breakfast RMX1901 userdebug
+mka target-files-package otatools
+/opt/crave/crave_sign.sh
