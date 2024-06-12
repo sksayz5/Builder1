@@ -7,5 +7,6 @@ ccache -M 100G
 ccache -o compression=true
 ccache -z
 source build/envsetup.sh
-breakfast RMX1901 userdebug
-mka target-files-package otatools
+lunch lineage_RMX1901-user
+m install clean
+m evolution
