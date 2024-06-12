@@ -6,5 +6,6 @@ export USE_CCACHE=1
 ccache -M 100G
 ccache -o compression=true
 ccache -z
+source build/envsetup.sh
 breakfast RMX1901 userdebug
 mka target-files-package otatools
