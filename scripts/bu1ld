@@ -6,6 +6,11 @@ export USE_CCACHE=1
 ccache -M 100G
 ccache -o compression=true
 ccache -z
-. build/envsetup.sh
+subject='/C=IN/ST=Haryana/L=Panipat/O=Android/OU=Android/CN=Android/emailAddress=shravansayz@gmail.com'
+for x in releasekey platform shared media networkstack nfc verity otakey testkey sdk_sandbox bluetooth; do \
+  echo '' |./development/tools/make_key vendor/aosp/signing/keys/$x "$subject"; \
+done
+
+source build/envsetup.sh
 lunch "$LUNCH_COMBO"
-make $TARGET -j8
+make $TARGET
