@@ -12,5 +12,4 @@ for x in releasekey platform shared media networkstack nfc verity otakey testkey
 done
 
 source build/envsetup.sh
-lunch "$LUNCH_COMBO"
-mka $TARGET
+brunch RMX1901
