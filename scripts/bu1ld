@@ -13,4 +13,4 @@ done
 
 source build/envsetup.sh
 lunch "$LUNCH_COMBO"
-make $TARGET
+mka $TARGET
