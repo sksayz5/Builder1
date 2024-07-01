@@ -8,4 +8,5 @@ ccache -o compression=true
 ccache -z
 
 source build/envsetup.sh
-breakfast RMX1901
+lunch "$LUNCH_COMBO"
+mka $TARGET
