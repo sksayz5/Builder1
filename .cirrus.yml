@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
+    MANIFEST: https://gitlab.com/ThankYouHonami/manifest.git -b fourteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b pos14
