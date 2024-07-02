@@ -1,16 +1,17 @@
 #!/bin/bash
 cd ~/work
 
-. build/envsetup.sh
+export CCACHE_DIR=/tmp/ccache
+
 export TZ=Asia/Jakarta
 export CCACHE_DIR=~/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
+ccache -M 100G
 ccache -M 100G -F 0
 ccache -o compression=true
 ccache -z
+
+source build/envsetup.sh
 lunch "$LUNCH_COMBO"
-make $TARGET -j8 &
-sleep 100m
-kill %1
-ccache -s
+mka $TARGET
