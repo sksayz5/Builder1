@@ -12,6 +12,6 @@ ccache -M 100G -F 0
 ccache -o compression=true
 ccache -z
 
-source build/envsetup.sh
+. build/envsetup.sh
 lunch "$LUNCH_COMBO"
 mka $TARGET
