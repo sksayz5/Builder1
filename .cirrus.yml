@@ -4,7 +4,7 @@ env:
     OEM: realme
     LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b pos14
     TARGET: evolution
-    LUNCH_COMBO: aosp_${DEVICE}-ap2a-user
+    LUNCH_COMBO: aosp_${DEVICE}-userdebug
     OUTPUT: P*.zip
     CLO: RMX1901:AppDrive
     CLO_1: #ENCRYPTED[!d539ab513a653c9ce419c6f2b5309bdeec2760bf8f92511563a91df3c24c11252989295c8b71b90e5d5ac9395e6b2290!]
