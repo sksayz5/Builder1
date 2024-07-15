@@ -1,13 +1,10 @@
 #!/bin/bash
 sync() {
-mkdir -p ~/work
-cd ~/work
 git config --global user.name "Shravan55555"
 git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
-cd f*/b* && git fetch https://github.com/israfilbd/frameworks_base_evo.git && git cherry-pick 474c11e882e3348954059a4ac5cc1f636fda79d1 && cd ../..
 }
 
 echo "Syncing Rom and Device Sources..."
