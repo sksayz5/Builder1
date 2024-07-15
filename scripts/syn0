@@ -1,7 +1,6 @@
 #!/bin/bash
 sync() {
-mkdir -p ~/tmp/src/android
-cd ~/tmp/src/android
+/tmp/src/android
 git config --global user.name "Shravan55555"
 git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
