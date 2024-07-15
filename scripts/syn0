@@ -1,5 +1,5 @@
 #!/bin/bash
-sync() {
+{
 tmp/src/android
 git config --global user.name "Shravan55555"
 git config --global user.email "srasidda.ks@gmail.com"
