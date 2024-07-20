@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/The-Pixel-Project/manifest -b fourteen-qpr3 -g default,-mips,-darwin,-notdefault --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST:https://github.com/Shravan55555/local_manifest.git -b main 
+    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main 
     TARGET: bacon
     LUNCH_COMBO: aosp_${DEVICE}-user
     OUTPUT: P*.zip
