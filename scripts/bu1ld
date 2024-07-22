@@ -8,5 +8,6 @@ ccache -M 100G -F 0
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh
-lunch "$LUNCH_COMBO"
-make $TARGET
+riseup RMX1901 userdebug
+m installclean
+rise b
