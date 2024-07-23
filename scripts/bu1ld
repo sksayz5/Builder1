@@ -7,7 +7,7 @@ ccache -M 100G
 ccache -M 100G -F 0
 ccache -o compression=true
 ccache -z
-source build/envsetup.sh
+. build/envsetup.sh
 lunch aosp_RMX1901-ap2a-userdebug
 make installclean
-mka bacon
+mka $TARGET
