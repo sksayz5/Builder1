@@ -8,6 +8,5 @@ ccache -M 100G -F 0
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh
-lunch aosp_RMX1901-ap2a-userdebug
-make installclean
+lunch "$LUNCH_COMBO"
 mka $TARGET
