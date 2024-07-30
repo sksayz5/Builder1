@@ -15,7 +15,7 @@ task:
   name: "build"
   timeout_in: 120m
   container:
-      image: accupara/ubuntu:22.04
+      image: accupara/aosp@sha256:4ff69a38d5193e4d57347a526c3735dc91433c7e80a7f90c681c484f9faf76b5
       cpu: 8
       memory: 32G
   Storage-Checker_script:
