@@ -1,12 +1,25 @@
 #!/bin/bash
 cd ~/work
-export CCACHE_DIR=/tmp/ccache
-export CCACHE_EXEC=$(which ccache)
+wget https://github.com/ccache/ccache/releases/download/v4.10/ccache-4.10-linux-x86_64.tar.xz
+tar -xf ccache-4.10-linux-x86_64.tar.xz
+cd ccache-4.10-linux-x86_64
+#sudo make install
+#ccache --version
+sudo cp ccache /usr/bin/
+sudo ln -sf ccache /usr/bin/gcc
+sudo ln -sf ccache /usr/bin/g++
+cd ..
+ccache --version
+
 export USE_CCACHE=1
-ccache -M 100G
-ccache -M 100G -F 0
-ccache -o compression=true
-ccache -z
+sleep 1
+export CCACHE_DIR=$PWD/cc
+sleep 1 
+ccache -s
+ccache -F 0
+ccache -M 0
+echo $CCACHE_DIR
+ccache -s
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
 mka $TARGET
