@@ -22,4 +22,4 @@ echo $CCACHE_DIR
 ccache -s
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
-mka $TARGET
+m $TARGET
