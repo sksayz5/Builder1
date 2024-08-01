@@ -20,7 +20,7 @@ ccache -F 0
 ccache -M 0
 echo $CCACHE_DIR
 ccache -s
-croot && git clone https://github.com/Evolution-XYZ/vendor_evolution-priv_keys-template vendor/evolution-priv/keys
+git clone https://github.com/Evolution-XYZ/vendor_evolution-priv_keys-template vendor/evolution-priv/keys
 cd vendor/evolution-priv/keys
 ./keys.sh
 . build/envsetup.sh
