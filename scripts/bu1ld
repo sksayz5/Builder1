@@ -23,6 +23,7 @@ ccache -s
 git clone https://github.com/Evolution-XYZ/vendor_evolution-priv_keys-template vendor/evolution-priv/keys
 cd vendor/evolution-priv/keys
 ./keys.sh && 
-. build/envsetup.sh
-lunch "$LUNCH_COMBO"
-m $TARGET
+
+source build/envsetup.sh
+lunch lineage_RMX1901-user
+m evolution
