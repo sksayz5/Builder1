@@ -22,8 +22,7 @@ echo $CCACHE_DIR
 ccache -s
 git clone https://github.com/Evolution-XYZ/vendor_evolution-priv_keys-template vendor/evolution-priv/keys
 cd vendor/evolution-priv/keys
-./keys.sh
-}
+./keys.sh && 
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
 m $TARGET
