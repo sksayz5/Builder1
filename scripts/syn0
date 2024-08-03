@@ -7,7 +7,7 @@ git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-
+}
 echo "Syncing Rom and Device Sources..."
 sync
 echo "Syncing"
