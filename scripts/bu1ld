@@ -1,29 +1,8 @@
 #!/bin/bash
 cd ~/work
-wget https://github.com/ccache/ccache/releases/download/v4.10/ccache-4.10-linux-x86_64.tar.xz
-tar -xf ccache-4.10-linux-x86_64.tar.xz
-cd ccache-4.10-linux-x86_64
-#sudo make install
-#ccache --version
-sudo cp ccache /usr/bin/
-sudo ln -sf ccache /usr/bin/gcc
-sudo ln -sf ccache /usr/bin/g++
-cd ..
-ccache --version
-
-export USE_CCACHE=1
-sleep 1
-export CCACHE_DIR=$PWD/cc
-sleep 1 
-ccache -s
-ccache -F 0
-ccache -M 0
-echo $CCACHE_DIR
-ccache -s
-git clone https://github.com/Evolution-XYZ/vendor_evolution-priv_keys-template vendor/evolution-priv/keys
-cd vendor/evolution-priv/keys
-./keys.sh && 
-
+wget https://raw.githubusercontent.com/306bobby-android/crDroid-build-signed-script/main/create-signed-env.sh
+chmod +x create-signed-env.sh
+./create-signed-env.sh
 source build/envsetup.sh
 lunch lineage_RMX1901-user
 m evolution
