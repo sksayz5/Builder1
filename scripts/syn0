@@ -7,10 +7,6 @@ git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-wget https://raw.githubusercontent.com/shravansayz/crDroid-build-signed-script/main/create-signed-env.sh
-chmod +x create-signed-env.sh
-./create-signed-env.sh
-}
 
 echo "Syncing Rom and Device Sources..."
 sync
