@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~/work
 source build/envsetup.sh
-lunch lineage_RMX1901-ap2a-user
-m installclean
-m bacon
+riseup RMX1901 user
+gk -s
+rise b
