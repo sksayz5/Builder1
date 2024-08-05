@@ -2,5 +2,5 @@
 cd ~/work
 source build/envsetup.sh
 riseup RMX1901 user
-gk -s
+gk -f
 rise b
