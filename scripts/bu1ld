@@ -1,6 +1,5 @@
 #!/bin/bash
 cd ~/work
 source build/envsetup.sh
-riseup RMX1901 user
-gk -f
-rise sb
+lunch pixelstar_RMX1901 user
+mka bacon -jXT
