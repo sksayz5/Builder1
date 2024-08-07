@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ~/work
 source build/envsetup.sh
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 lunch lineage_RMX1901-user
 m evolution
