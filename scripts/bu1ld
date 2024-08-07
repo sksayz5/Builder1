@@ -1,5 +1,5 @@
 #!/bin/bash
 cd ~/work
 source build/envsetup.sh
-lunch aosp_RMX1901-ap2a-user
-mka bacon
+lunch lineage_RMX1901-user
+m evolution
