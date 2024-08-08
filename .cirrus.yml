@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b udc --git-lfs
+    MANIFEST: https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main
@@ -15,7 +15,7 @@ task:
   name: "build"
   timeout_in: 120m
   container:
-      image: accupara/aosp:ubuntu
+      image: snaxpsycho/crave:latest
       cpu: 8
       memory: 32G
   Storage-Checker_script:
