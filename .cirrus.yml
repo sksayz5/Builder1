@@ -15,7 +15,7 @@ task:
   name: "build"
   timeout_in: 120m
   container:
-      image: snaxpsycho/crave:latest
+      image: ghcr.io/shravan55555/docker:arch
       cpu: 8
       memory: 32G
   Storage-Checker_script:
