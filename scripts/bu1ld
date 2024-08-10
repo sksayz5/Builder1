@@ -2,4 +2,4 @@
 cd ~/work
 source build/envsetup.sh
 lunch aosp_RMX1901-ap2a-user
-mka bacon
+mka bacon && wget https://gitlab.com/GustavoMends/go-up/-/raw/master/go-up && chmod +x go-up && ./go-up
