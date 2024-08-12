@@ -2,7 +2,7 @@
 cd ~/work
 
 # Signing
-curl -O wget https://raw.githubusercontent.com/Shravan55555/crDroid-build-signed-script/main/create-signed-env.sh
+curl -O wget https://raw.githubusercontent.com/Shravan55555/crDroid-build-signed-script/derp/create-signed-env.sh
 chmod +x create-signed-env.sh
 ./create-signed-env.sh
 
