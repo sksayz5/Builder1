@@ -4,8 +4,6 @@ mkdir -p ~/work
 cd ~/work
 git config --global user.name "Shravan55555"
 git config --global user.email "srasidda.ks@gmail.com"
-git clone https://github.com/Shravan55555/Signing-Script.git
-bash keygen.sh
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
