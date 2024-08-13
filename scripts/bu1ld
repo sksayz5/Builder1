@@ -2,9 +2,6 @@
 cd ~/work
 
 # Signing
-wget https://raw.githubusercontent.com/Shravan55555/crDroid-build-signed-script/main/create-signed-env.sh
-chmod +x create-signed-env.sh
-./create-signed-env.sh
 
 source build/envsetup.sh
 lunch derp_RMX1901-user
