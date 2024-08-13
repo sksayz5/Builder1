@@ -2,9 +2,9 @@
 cd ~/work
 
 # Signing
-git clone https://github.com/Evolution-X/vendor_evolution-priv_keys-template vendor/derp/signing/keys
-cd vendor/derp/signing/keys
-./keys.sh
+wget https://raw.githubusercontent.com/shravansayz/crDroid-build-signed-script/main/create-signed-env.sh
+chmod +x create-signed-env.sh
+./create-signed-env.sh
 
 source build/envsetup.sh
 lunch derp_RMX1901-user
