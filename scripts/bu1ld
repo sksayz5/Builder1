@@ -2,7 +2,7 @@
 cd ~/work
 
 # Signing
-croot && git clone https://github.com/Evolution-X/vendor_evolution-priv_keys-template vendor/derp/signing/keys
+git clone https://github.com/Evolution-X/vendor_evolution-priv_keys-template vendor/derp/signing/keys
 cd vendor/derp/signing/keys
 ./keys.sh
 
