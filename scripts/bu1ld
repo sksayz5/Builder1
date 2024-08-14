@@ -3,7 +3,6 @@ cd ~/work
 
 # Signing
 
-source build/envsetup.sh
+. build/envsetup.sh
 lunch aosp_RMX1901-ap2a-user
-make installclean
 mka bacon
