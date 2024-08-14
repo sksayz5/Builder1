@@ -4,5 +4,5 @@ cd ~/work
 # Signing
 
 source build/envsetup.sh
-lunch derp_RMX1901-user
-mka derp && wget https://gitlab.com/GustavoMends/go-up/-/raw/master/go-up && chmod +x go-up && ./go-up
+lunch aosp_RMX1901-ap2a-user
+mka bacon && wget https://gitlab.com/GustavoMends/go-up/-/raw/master/go-up && chmod +x go-up && ./go-up
