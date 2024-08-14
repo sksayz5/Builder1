@@ -7,7 +7,11 @@ git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
+#bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
+git clone https://github.com/Shravan55555/Signing_Builds.git
+cd Signing_Builds
+chmod +x ./setup.sh
+./setup.sh
 }
 echo "Syncing Rom and Device Sources..."
 sync
