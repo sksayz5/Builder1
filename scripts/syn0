@@ -9,7 +9,10 @@ git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 #rm -rf .android-certs && git clone https://github.com/Legendleo90/private_keys .android-certs
 #cp .android-certs/* vendor/aosp/signing/keys/
-bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
+#bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
+git clone https://github.com/ProjectInfinity-X/vendor_infinity-priv_keys-template vendor/infinity-priv/keys
+cd vendor/infinity-priv/keys
+./keys.sh
 }
 echo "Syncing Rom and Device Sources..."
 sync
