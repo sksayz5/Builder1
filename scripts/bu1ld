@@ -2,5 +2,5 @@
 cd ~/work
 
 . build/envsetup.sh
-lunch infinity_RMX1901-user
-mka bacon
+lunch droidx_RMX1901-ap2a-user
+m bacon
