@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/ProjectInfinity-X/manifest -b QPR3 -g default,-mips,-darwin,-notdefault
+    MANIFEST: https://github.com/DroidX-UI/manifest.git -b 14_v3 --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main
