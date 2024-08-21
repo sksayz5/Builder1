@@ -1,3 +1,5 @@
 #!/bin/bash
 cd ~/work
-source build/envsetup.sh && lunch aospa_RMX1901-userdebug && make installclean && ./rom-build.sh RMX1901 -t userdebug 
+source build/envsetup.sh && lunch aospa_RMX1901-eng
+export TZ=Asia/Dhaka && make installclean
+./rom-build.sh RMX1901 -t eng
