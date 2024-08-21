@@ -1,7 +1,4 @@
 #!/bin/bash
 cd ~/work
 
-. build/envsetup.sh
-riseup RMX1901 user
-gk -s
-rise b
+./rom-build.sh RMX1901
