@@ -2,5 +2,6 @@
 cd ~/work
 
 . build/envsetup.sh
-lunch droidx_RMX1901-ap2a-user
-m bacon
+riseup RMX1901 user
+gk -s
+rise b
