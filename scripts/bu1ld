@@ -1,9 +1,3 @@
 #!/bin/bash
 cd ~/work
-source build/envsetup.sh
-
-# Cleanup directories
-make installclean
-
-# Build
-./rom-build.sh RMX1901 -t user
+source build/envsetup.sh && lunch aospa_RMX1901-userdebug && make installclean && ./rom-build.sh RMX1901 -t userdebug 
