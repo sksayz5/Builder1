@@ -1,7 +1,5 @@
 #!/bin/bash
 cd ~/work
 
-# Set up build environment
-source build/envsetup.sh
 # Build
-./rom-build.sh RMX1901 -t userdebug
+./rom-build.sh RMX1901
