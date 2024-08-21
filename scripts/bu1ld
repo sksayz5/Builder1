@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ~/work
 source build/envsetup.sh && lunch aospa_RMX1901-userdebug
-export TZ=Asia/Dhaka && make installclean
+export TZ=Asia/Dhaka && make installclean && mka bacon
