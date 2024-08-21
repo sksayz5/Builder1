@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/AOSPA/manifest -b uvite
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main
+    #LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git -b main
     #TARGET: evolution
     #LUNCH_COMBO: lineage_${DEVICE}-user
     OUTPUT: P*.zip
