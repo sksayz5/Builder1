@@ -1,5 +1,9 @@
 #!/bin/bash
 cd ~/work
+source build/envsetup.sh
+
+# Cleanup directories
+make installclean
 
 # Build
-./rom-build.sh RMX1901
+./rom-build.sh RMX1901 -t user
