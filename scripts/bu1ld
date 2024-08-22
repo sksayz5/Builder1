@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ~/work
-source build/envsetup.sh && lunch yaap_RMX1901-user
-export TZ=Asia/Dhaka && make installclean && m yaap
+source build/envsetup.sh && lunch lineage_RMX1901-user
+export TZ=Asia/Dhaka && make installclean && m bacon
