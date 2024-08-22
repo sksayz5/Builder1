@@ -1,8 +1,8 @@
 env:
-    MANIFEST: https://github.com/AOSPA/manifest -b uvite
+    MANIFEST: https://github.com/yaap/manifest.git -b fourteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/sksayz5/local_manifest.git -b test
+    LOCAL_MANIFEST: https://github.com/sksayz5/local_manifest.git -b main
     #TARGET: evolution
     #LUNCH_COMBO: lineage_${DEVICE}-user
     OUTPUT: P*.zip
