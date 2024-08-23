@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ~/work
-source build/envsetup.sh && lunch lineage_RMX1901-user
+source build/envsetup.sh && lunch lineage_RMX1901-ap2a-user
 export TZ=Asia/Dhaka && make installclean && m bacon
