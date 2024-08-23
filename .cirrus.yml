@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/Los-Ext/manifest.git -b 14R --git-lfs -g default,-mips,-darwin,-notdefault
+    MANIFEST: https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/sksayz5/local_manifest.git -b main
