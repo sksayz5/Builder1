@@ -9,14 +9,14 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 source build/envsetup.sh
 # Build Configuration. Required variables to compile the ROM.
-CONFIG_LUNCH="lunch lineage_RMX1901-ap2a-user"
+CONFIG_LUNCH="lineage_RMX1901-ap2a-user"
 CONFIG_OFFICIAL_FLAG="Unofficial"
 CONFIG_TARGET="m bacon"
 
 # Telegram Configuration
-CONFIG_CHATID=""
-CONFIG_BOT_TOKEN=""
-CONFIG_ERROR_CHATID=""
+CONFIG_CHATID="-1001983626693"
+CONFIG_BOT_TOKEN="6268171294:AAGBIBXu3gEQeegjB99FUpLFJrDzp9zr22E"
+CONFIG_ERROR_CHATID="-1001983626693"
 
 # PixelDrain api keys to upload builds
 CONFIG_PDUP_API=""
