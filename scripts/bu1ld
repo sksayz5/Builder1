@@ -10,7 +10,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 source build/envsetup.sh
 # Build Configuration. Required variables to compile the ROM.
 CONFIG_LUNCH="lunch lineage_RMX1901-ap2a-user"
-CONFIG_OFFICIAL_FLAG="official"
+CONFIG_OFFICIAL_FLAG="Unofficial"
 CONFIG_TARGET="m bacon"
 
 # Telegram Configuration
@@ -22,7 +22,7 @@ CONFIG_ERROR_CHATID="-1001983626693"
 CONFIG_PDUP_API=""
 
 # Turning off server after build or no
-POWEROFF="true"
+POWEROFF=""
 
 # Script Constants. Required variables throughout the script.
 YELLOW=$(tput setaf 3)
