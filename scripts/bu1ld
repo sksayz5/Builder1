@@ -16,7 +16,7 @@ CONFIG_TARGET="m bacon"
 # Telegram Configuration
 CONFIG_CHATID=""
 CONFIG_BOT_TOKEN=""
-CONFIG_ERROR_CHATID="-1001983626693"
+CONFIG_ERROR_CHATID=""
 
 # PixelDrain api keys to upload builds
 CONFIG_PDUP_API=""
