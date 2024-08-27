@@ -1,8 +1,8 @@
 env:
-    MANIFEST: https://github.com/TenX-OS/manifest.git -b fourteen --git-lfs --depth=1
+    MANIFEST: https://github.com/Evolution-X/manifest -b udc --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/sksayz5/local_manifest.git -b main
+    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests --depth 1 -b evox
     #TARGET: evolution
     #LUNCH_COMBO: lineage_${DEVICE}-user
     OUTPUT: P*.zip
