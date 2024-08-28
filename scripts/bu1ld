@@ -9,7 +9,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 source build/envsetup.sh
 # Build Configuration. Required variables to compile the ROM.
-CONFIG_LUNCH="lineage_RMX1901-user"
+CONFIG_LUNCH="lineage_RMX1901-ap2a-user"
 CONFIG_OFFICIAL_FLAG="Unofficial"
 CONFIG_TARGET="bacon"
 
