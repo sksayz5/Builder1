@@ -2,7 +2,7 @@
 sync() {
 mkdir -p ~/work
 cd ~/work
-bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
+#bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
 git config --global user.name "Shravan55555"
 git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
