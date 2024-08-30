@@ -18,7 +18,7 @@ task:
       image: accupara/aosp:ubuntu
       cpu: 8
       memory: 32G
- Storage-Checker_script:
+  Storage-Checker_script:
       - ./scripts/d0wnl0ad
   Sync_script:
       - ./scripts/syn0
