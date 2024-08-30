@@ -2,7 +2,7 @@
 sync() {
 mkdir -p ~/work
 cd ~/work
-bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
+#bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
 git config --global user.name "Shravan55555"
 git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
@@ -10,7 +10,7 @@ git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 #rm -rf .android-certs && git clone https://github.com/Legendleo90/private_keys .android-certs
 #cp .android-certs/* vendor/aosp/signing/keys/
-#bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
+bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
 #git clone https://github.com/DroidX-UI/vendor_droidx-priv_keys-template.git vendor/droidx-priv/keys
 #cd vendor/droidx-priv/keys
 #./gen_keys
