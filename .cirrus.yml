@@ -22,6 +22,8 @@ task:
       - ./scripts/d0wnl0ad
   Sync_script:
       - ./scripts/syn0
+  Resync_Script:
+     - ./scripts/resyn0
   Build_script:
       - ./scripts/bu1ld
   upload_script:
