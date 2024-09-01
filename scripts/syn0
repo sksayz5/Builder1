@@ -8,6 +8,7 @@ git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+git clone 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@github.com/Los-Ext/frameworks_base
 #rm -rf .android-certs && git clone https://github.com/Legendleo90/private_keys .android-certs
 #cp .android-certs/* vendor/aosp/signing/keys/
 bash <(curl -s https://raw.githubusercontent.com/sksayz5/Signing-Script/test/keygen.sh)
