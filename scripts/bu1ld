@@ -4,4 +4,4 @@ cd ~/work
 
 . build/envsetup.sh
 lunch lineage_RMX1901-user
-mka everest
+m bacon
