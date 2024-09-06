@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p ~/work
 cd ~/work
 
 git config --global user.name "Shravan55555"
@@ -9,7 +10,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 source build/envsetup.sh
 # Build Configuration. Required variables to compile the ROM.
-CONFIG_LUNCH="aospa_RMX1901-ap2a-user"
+CONFIG_LUNCH="aospa_RMX1901-userdebug"
 CONFIG_OFFICIAL_FLAG="unofficial"
 CONFIG_TARGET="bacon"
 
