@@ -3,5 +3,5 @@ cd ~/work
 
 
 . build/envsetup.sh
-lunch lineage_RMX1901-user
-m evolution
+lunch aospa_RMX1901-user
+mka bacon
