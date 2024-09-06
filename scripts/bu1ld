@@ -3,5 +3,5 @@ cd ~/work
 
 
 . build/envsetup.sh
-lunch aospa_RMX1901-user
+lunch aospa_RMX1901-ap2a-userdebug
 mka bacon
