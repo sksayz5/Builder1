@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/Project-PenguinOS/manifest -b unity
+    MANIFEST: https://github.com/yaap/manifest.git -b fifteen --git-lfs
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/sksayz5/local_manifest --depth 1 -b test
