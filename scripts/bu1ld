@@ -10,9 +10,9 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 source build/envsetup.sh
 # Build Configuration. Required variables to compile the ROM.
-CONFIG_LUNCH="aospa_RMX1901-userdebug"
+CONFIG_LUNCH="yaap_RMX1901-userdebug"
 CONFIG_OFFICIAL_FLAG="unofficial"
-CONFIG_TARGET="bacon"
+CONFIG_TARGET="yaap"
 
 # Telegram Configuration
 CONFIG_CHATID="-1001983626693"
