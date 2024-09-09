@@ -11,9 +11,9 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 source build/envsetup.sh
 
 
-CONFIG_LUNCH="yaap_RMX1901-userdebug"
+CONFIG_LUNCH="aosp_RMX1901-ap2a-user"
 CONFIG_OFFICIAL_FLAG="unofficial"
-CONFIG_TARGET="yaap"
+CONFIG_TARGET="bacon"
  
  # Telegram Configuration
 CONFIG_CHATID="-1001983626693"
