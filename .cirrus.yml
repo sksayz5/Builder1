@@ -20,5 +20,9 @@ task:
       memory: 32G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
+  Sync_script:
+      - ./scripts/syn0
   Build_script:
       - ./scripts/bu1ld
+  upload_script:
+      - ./scripts/upl0ad
