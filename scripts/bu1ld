@@ -5,13 +5,13 @@ cd ~/work
 git config --global user.name "Shravan55555"
 git config --global user.email "srasidda.ks@gmail.com"
 repo init --depth=1 -u $MANIFEST
-git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+git clone $LOCAL_MANIFEST .repo/local_manifests
 
 source build/envsetup.sh
 
 
-CONFIG_LUNCH="aosp_RMX1901-ap2a-user"
+CONFIG_LUNCH="statix_RMX1901-ap3a-user"
 CONFIG_OFFICIAL_FLAG="unofficial"
 CONFIG_TARGET="bacon"
  
