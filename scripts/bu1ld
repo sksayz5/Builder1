@@ -3,5 +3,5 @@
 cd ~/work
 
 source build/envsetup.sh
-lunch blaze_RMX1901-ap3a-userdebug
-make bacon
+lunch euclid_RMX1901-ap2a-user
+m euclid
