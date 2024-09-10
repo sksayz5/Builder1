@@ -2,6 +2,6 @@
 
 cd ~/work
 
-. build/envsetup.sh
-brunch statix_RMX1901-ap3a-user
+source build/envsetup.sh
+lunch yaap_RMX1901-user && m yaap
 
