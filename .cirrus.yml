@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/yaap/manifest.git -b fifteen --git-lfs
+    MANIFEST: https://github.com/ProjectBlaze/manifest -b 15
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/sksayz5/local_manifest --depth 1 -b main
