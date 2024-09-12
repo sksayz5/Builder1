@@ -3,5 +3,5 @@
 cd ~/work
 
 source build/envsetup.sh
-lunch euclid_RMX1901-ap2a-user
-m euclid
+lunch derp_RMX1901-user
+mka derp
