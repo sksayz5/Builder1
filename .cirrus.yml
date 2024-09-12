@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 14
+    MANIFEST: https://github.com/ProjectBlaze/manifest -b 15
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests --depth 1 -b derp14
