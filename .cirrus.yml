@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/ProjectBlaze/manifest -b 15
+    MANIFEST: https://github.com/c0smic-Lab/manifest.git -b 15 --git-lfs --depth=1 
     DEVICE: RMX1901
     OEM: realme
     LOCAL_MANIFEST: https://github.com/sksayz5/local_manifest.git -b main
@@ -20,9 +20,5 @@ task:
       memory: 32G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
-  Sync_script:
-      - ./scripts/syn0
   Build_script:
       - ./scripts/bu1ld
-  upload_script:
-      - ./scripts/upl0ad
