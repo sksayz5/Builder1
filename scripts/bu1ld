@@ -12,7 +12,7 @@ source build/envsetup.sh
 # Build Configuration. Required variables to compile the ROM.
 CONFIG_LUNCH="aosp_RMX1901-ap3a-user"
 CONFIG_OFFICIAL_FLAG="Unofficial"
-CONFIG_TARGET="m bacon"
+CONFIG_TARGET="bacon"
 
 # Telegram Configuration
 CONFIG_CHATID="-1001983626693"
