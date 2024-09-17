@@ -1,8 +1,8 @@
 env:
-    MANIFEST: https://github.com/c0smic-Lab/manifest.git -b 15 --git-lfs --depth=1 
+    MANIFEST: https://github.com/AfterlifeOS/android_manifest.git -b refs/tags/afterlife-7.1_r67 --git-lfs
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/sksayz5/local_manifest.git -b main
+    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b afterlife
     #TARGET: evolution
     #LUNCH_COMBO: lineage_${DEVICE}-user
     OUTPUT: P*.zip
