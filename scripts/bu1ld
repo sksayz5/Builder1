@@ -3,4 +3,4 @@
 cd ~/work
 
 . build/envsetup.sh
-goafterlife RMX1901
+ brunch RMX1901
