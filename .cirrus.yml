@@ -1,8 +1,8 @@
 env:
-    MANIFEST: https://github.com/AfterlifeOS/android_manifest.git -b refs/tags/afterlife-7.1_r67 --git-lfs
-    DEVICE: RMX1901
-    OEM: realme
-    LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b afterlife
+    #MANIFEST: https://github.com/AfterlifeOS/android_manifest.git -b refs/tags/afterlife-7.1_r67 --git-lfs
+    #DEVICE: RMX1901
+    #OEM: realme
+    #LOCAL_MANIFEST: https://github.com/shravansayz/local_manifests.git -b afterlife
     #TARGET: evolution
     #LUNCH_COMBO: lineage_${DEVICE}-user
     OUTPUT: P*.zip
@@ -15,7 +15,7 @@ task:
   name: "build"
   timeout_in: 120m
   container:
-      image: accupara/aosp:ubuntu
+      image: accupara/aosp:baseline
       cpu: 8
       memory: 32G
   Storage-Checker_script:
