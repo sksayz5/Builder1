@@ -1,16 +1,58 @@
 #!/bin/bash
+
+# Display system uptime
+echo "System Uptime:"; uptime -p; echo
+
+# Display CPU usage
+echo "CPU Usage:"; top -bn1 | grep "Cpu(s)" | awk '{printf("  Usage: %.2f%%\n", 100 - $8)}'; echo
+
+# Display memory usage
+echo "Memory Usage:"; free -h | awk 'NR==2{printf("  Used: %s / Total: %s (%.2f%%)\n", $3, $2, $3*100/$2)}'; echo
+
+# Display top running processes
+echo "Running Processes:"; ps aux --sort=-%mem | awk 'NR<=10{printf("  %s: %s (PID: %d)\n", $1, $11, $2)}'
+
+
 sync() {
 mkdir -p ~/work
 cd ~/work
-#bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
 git config --global user.name "Shravan55555"
 git config --global user.email "srasidda.ks@gmail.com"
-repo init --depth=1 -u $MANIFEST
-git clone $LOCAL_MANIFEST .repo/local_manifests
+repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs
+#git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
+wget https://raw.githubusercontent.com/custom-crdroid/custom_cr_setup/refs/heads/15.0/vendorsetup.sh
+bash vendorsetup.sh
+color="\033[1;36m"
+end="\033[0m"
+
+#  DT
+echo -e "${color}Cloning Device Sources${end}"
+git clone -b cr-15 https://github.com/ij-israfil/device_realme_RMX1901_15.git device/realme/RMX1901
+
+# Vendor & Kernel Sources
+echo -e "${color}Cloning vendor${end}"
+git clone --depth=1 -b 15 https://gitlab.com/shravansayz/vendor_realme_RMX1901_15.git vendor/realme/RMX1901
+
+echo -e "${color}Cloning kernel${end}"
+git clone --depth=1 -b testtt https://github.com/shravansayz/kernel_realme_sdm710.git kernel/realme/sdm710
+cd kernel/realme/sdm710
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.5
+cd ../../..
+
+sleep 1
+
+# clang
+echo -e "${color}Cloning Clang${end}"
+git clone --depth=1 -b master https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/clang-proton
+
+sleep 1
+
+/opt/crave/resync.sh
+
 #rm -rf .android-certs && git clone https://github.com/Legendleo90/private_keys .android-certs
 #cp .android-certs/* vendor/aosp/signing/keys/
-#bash <(curl -s https://raw.githubusercontent.com/sksayz5/Signing-Script/main/keygen.sh)
+#bash <(curl -s https://raw.githubusercontent.com/Shravan55555/Signing-Script/main/keygen.sh)
 #git clone https://github.com/DroidX-UI/vendor_droidx-priv_keys-template.git vendor/droidx-priv/keys
 #cd vendor/droidx-priv/keys
 #./gen_keys
